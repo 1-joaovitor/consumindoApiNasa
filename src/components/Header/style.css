@@ -1,0 +1,24 @@
+.link{
+    text-decoration: none;
+    
+}
+.arrow{
+    animation: link 3s ease-in-out infinite
+}
+
+@keyframes link {
+    0%{
+        transform: translateX(0px);
+        
+    }
+    50%{
+        transform: translateX(18px);
+        
+    }
+    
+    100%{
+        transform: translateX(0px);
+        
+    }
+
+}
